@@ -1,5 +1,7 @@
 # Kolkata Real Estate Marketplace
 
+🔗 **Live Demo:** [https://leadspree-dev-official.github.io/kolkata-real-estate-marketplace/](https://leadspree-dev-official.github.io/kolkata-real-estate-marketplace/)
+
 A modern web application built with React, Vite, and Tailwind CSS.
 
 ## Getting Started

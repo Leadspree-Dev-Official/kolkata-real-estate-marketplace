@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --brand-color: #ea580c;
+  --brand-color-hover: #c2410c;
+  --brand-color-light: #fff7ed;
+  --brand-color-border: #ffedd5;
+}
+
+/* Custom Brand Color Helpers */
+.bg-brand {
+  background-color: var(--brand-color);
+}
+
+.bg-brand-hover:hover {
+  background-color: var(--brand-color-hover);
+}
+
+.text-brand {
+  color: var(--brand-color);
+}
+
+.border-brand {
+  border-color: var(--brand-color);
+}
+
+.bg-brand-light {
+  background-color: var(--brand-color-light);
+}
+
+.border-brand-light {
+  border-color: var(--brand-color-border);
+}
+
+/* Smooth transitions for theme changes */
+*, ::before, ::after {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}

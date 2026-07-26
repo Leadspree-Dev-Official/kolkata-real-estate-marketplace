@@ -1,0 +1,6 @@
+{
+  "name": "Kolkata Real Estate Marketplace",
+  "description": "A premium web application for buying flats in Kolkata, featuring immersive image galleries, interactive room-by-room floor plans, and a direct AI sales assistant messaging system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
